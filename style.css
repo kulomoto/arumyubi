@@ -139,7 +139,11 @@ footer {
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 30px;
+    padding: 15px;
+    background: #000; /* samakan dengan navbar */
+    position: sticky;
+    top: 80px; /* jarak sesuai tinggi navbar */
+    z-index: 998;
 }
 
 .category-menu a {
@@ -155,3 +159,4 @@ footer {
 .category-menu a:hover {
     transform: scale(1.05);
 }
+
