@@ -158,30 +158,5 @@ footer {
 
 }
 
-.category-menu {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    padding: 18px;
-    background: #111;
-    position: sticky;
-    top: 80px;
-    z-index: 999;
-}
-
-.category-menu a {
-    padding: 10px 25px;
-    background: #1a1a1a;
-    border-radius: 30px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.category-menu a:hover {
-    background: gold;
-    color: #000;
-}
 
 
